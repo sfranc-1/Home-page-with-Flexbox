@@ -1,0 +1,1199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+header {
+    background-color: black;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0 1.5rem;
+}
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    width: 3rem;
+    height: 3rem;
+}
+header li {
+    display: inline-flex;
+    font-weight: 700;
+    margin: 0 0 0 1rem;
+}
+header a {
+    color: lightgray;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+header span {
+    font-size: 1.5rem;
+}
+header a:hover {
+    color: darkgray;
+}
+
+
+.Main {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 61rem;
+}
+.jumbotron1 {
+    background-attachment: fixed;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 1)), url(https://blog.allplan.com/hubfs/EN_Blog/Engineering/Reaching%20For%20The%20Sky/iStock-1133400370_NEU.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+}
+.jumbo-content {
+    border-radius: 2px;
+    color: rgba(245, 245, 245, 0.90);
+    margin: 0 0 16rem 40rem;
+    padding: 0;
+}
+.jumbo-content h1 {
+    font-size: 7.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.jumbo-content span {
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    padding: 0 0 0 1.5rem;
+}
+
+
+#Mission {
+    background-color: rgb(255, 246, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0;
+    width: 100%;
+    height: auto;
+}
+#Mission div {
+    width: 85%;
+    height: auto;
+}
+#Mission h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 2;
+    letter-spacing: 0.6rem;
+}
+#Mission p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    word-spacing: 0.3rem;
+}
+
+
+#Information {
+    background-color: rgb(28, 28, 36);
+    padding: 3rem;
+    width: 100%;
+}
+.title-content h2, .title-content p {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+.info-title {
+    border: solid 1.5px gray;
+    border-radius: 2rem;
+    display: inline-flex;
+    margin: 2rem 0;
+    width: 100%;
+    height: auto;
+}
+.title-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50rem;
+    overflow: hidden;
+}
+.title-content.text {
+    padding: 0 2rem;
+}
+.mobile {
+    display: none;
+}
+.title-content h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.title-content p {
+    font-size: 3rem;
+    text-align: justify;
+}
+.img-container {
+    border: solid 2px whitesmoke;
+    object-position: center;
+    overflow: hidden;
+    width: 50%;
+    height: 80%;
+}
+.img-container img {
+    zoom: 60%;
+}
+.info-title:hover {
+    overflow: hidden;
+
+    .title-content.img {
+        transform: scale(1.25);
+        transition: transform 1.4s ease-out;
+    }
+}
+.Carbide {
+    background-image: url(file:///C:/CC%20Projects/Company%20Home%20Page%20with%20Flexbox/Resources/Images/Art%20Deco%201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.Mohawk {
+    background-image: url(file:///C:/CC%20Projects/Company%20Home%20Page%20with%20Flexbox/Resources/Images/Art%20Deco%202.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.Chrysler {
+    background-image: url(file:///C:/CC%20Projects/Company%20Home%20Page%20with%20Flexbox/Resources/Images/Art%20Deco%203.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.res-artdeco {
+    background-image: url(file:///C:/CC%20Projects/Company%20Home%20Page%20with%20Flexbox/Resources/Images/Art%20Deco%204.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 65%;
+}
+.Wells {
+    background-image: url(https://i0.wp.com/heritagecalling.com/wp-content/uploads/2022/04/DP082047.jpg?ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.Duomo {
+    background-image: url(https://images.interestingengineering.com/images/MARCH/Gothic_Architecture_Milan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.res-gothic {
+    background-image: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/41f3f346-5c12-437e-b65b-eb0907c8ad27-ghoulish-gothic-homes-gothic-mansion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.Cologne {
+    background-image: url(https://img.theculturetrip.com/wp-content/uploads/2015/11/768px-Dmthoth_Koelner_dom_001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.Santa-Maria {
+    background-image: url(https://i0.wp.com/thearchspace.com/wp-content/uploads/2022/07/basilica-di-santa-maria-della-salute-italy_l.jpeg?resize=1024%2C683&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.Zwinger {
+    background-image: url(https://i0.wp.com/thearchspace.com/wp-content/uploads/2022/07/Drezno_Zwinger_Pawilon_Walowy4.jpg?resize=1024%2C621&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.St-Paul {
+    background-image: url(https://i0.wp.com/thearchspace.com/wp-content/uploads/2022/07/St-Pauls-Cathedral-5864408e5f9b586e029380a0.jpg?resize=1024%2C743&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.res-baroque {
+    background-image: url(https://img.theculturetrip.com/wp-content/uploads/2018/06/shutterstock_664796767.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.Basilica {
+    background-image: url(https://media.cntraveler.com/photos/58cac9bf2a932866dbe09ff5/16:9/w_2560,c_limit/GettyImages-564432979.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+.Biblioteca {
+    background-image: url(https://live.staticflickr.com/3898/14508095831_d36d95d980_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+    width: 60%;
+}
+.Duomo-Fiore {
+    background-image: url(https://www.cuddlynest.com/blog/wp-content/uploads/2022/07/cathedral-of-santa-maria-del-fiore-florence-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 67%;
+    width: 60%;
+}
+.res-renaissance {
+    background-image: url(https://www.feelflorence.it/sites/www.feelflorence.it/files/2020-05/Palazzo%20Medici%20Riccardi%2002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+}
+
+
+#Portfolio {
+    background-color: rgb(255, 246, 239);
+    padding: 0 8rem;
+    width: 100%;
+    height: auto;
+}
+.port-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    line-height: 2.8;
+    text-align: center;
+    text-transform: uppercase;
+}
+.port {
+    display: inline-flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.snapshot {
+    background: white;
+    border: solid 1px rgb(53, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 2.5rem 0;
+    overflow: hidden;
+    padding: 2rem 0;
+    width: 40%;
+    height: 50rem;
+}
+.port-last {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.snap-img {
+    overflow: hidden;
+    width: 90%;
+    height: 65%;
+}
+.snap-img img {
+    width: 100%;
+    height: 100%;
+}
+.cathedral {
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/64186162efa667ec02bdef19/0x0.jpg?format=jpg&width=1200);
+    background-repeat: no-repeat;
+    background-position: 5% 20%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.snap-text {
+    margin: 1rem 0 0 0;
+    width: 85%;
+    height: auto;
+}
+.snap-text h3 {
+    font-family: 'Dancing Script', cursive;
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+}
+.snap-text a {
+    color: black;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+.snap-text p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.snapshot:hover {
+    background-color: rgb(221, 221, 221);
+    border: solid 1px rgb(185, 185, 185);
+
+    .snap-text a {
+        color: rgb(68, 68, 68);
+    }
+
+    .snap-img img {
+        transform: scale(1.5);
+        transition: transform 1.5s ease-in-out;
+    }
+}
+.cath:hover {
+    border: solid 1px rgb(185, 185, 185);
+
+    .cathedral {
+        transform: scale(1.5);
+        transition: transform 1.5s ease-in-out;
+    }
+}
+
+
+#Team {
+    background-color: rgb(230, 230, 230);
+}
+.team-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 0 2rem 0;
+    width: 100%;
+    height: auto;
+}
+.team-title h2 {
+    background-color: rgb(230, 230, 230);
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    line-height: 2.8;
+    text-align: center;
+    text-transform: uppercase;
+}
+.team {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 0 5rem 0;
+    padding: 0;
+    width: 40%;
+    height: 38rem;
+}
+.image {
+    border: solid 4px black; 
+    border-radius: 3px;
+    overflow: hidden;
+    width: 40%;
+    height: 50%;
+}
+.team-text {
+    font-family: 'Playfair Display', serif;
+    padding: 0.5rem 0 0 0;
+    width: 80%;
+    /* height: 50%; */
+}
+.team-text h4 {
+    font-size: 2rem;
+}
+.team-text span {
+    color: rgb(62, 62, 62);
+    font-size: 1.7rem;
+}
+.team-mobile {
+    display: none;
+}
+.team-text h5 {
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+}
+.team-text p {
+    font-size: 1.5rem;
+    line-height: 1.5;  
+}
+.sophia {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/631ba8eed2196a6795698665/70ee74c1-4bd3-4410-88fd-75bae72b4bfd/2021-08-16-Alicia-Huntsman-44234-JPEG+sRGB+Web+Folder.jpg?format=750w);
+    background-position: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.oliv {
+    background-color: rgb(181, 181, 179);
+}
+.olivia {
+    background-image: url(https://media.istockphoto.com/id/1317784597/photo/vertical-portrait-of-mature-50-years-asian-business-woman-on-grey-background.jpg?s=612x612&w=0&k=20&c=4bCCytm55vOSNNr_MVuu52QT2Pcx9d8rwTGNMPO9dUw=);
+    background-position: 50% 20%;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.alex {
+    background-image: url(https://media.istockphoto.com/id/1324786380/photo/young-handsome-smiling-man-in-brown-shirt-and-glasses-feeling-confident-isolated-on-gray.jpg?s=612x612&w=0&k=20&c=EWqUQzPW-4jH8rri6eQAeomVfeizC2ead7YCl28KhXU=);
+    background-position: top;
+    background-size: 170%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.ben {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/631ba8eed2196a6795698665/c62f320d-a449-4723-8705-ce38f51049ec/2022-08-10-Trinet-Monticalvo-Caleb-0950.jpg?format=750w);
+    background-position: top;
+    background-size: 115%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.isa {
+    background-image: url(https://www.unh.edu/unhtoday/sites/default/files/styles/article_huge/public/article/2019/professional_woman_headshot.jpg?itok=3itzxHXh);
+    background-position: 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.elena {
+    background-image: url(https://st5.depositphotos.com/48172140/63255/i/450/depositphotos_632559050-stock-photo-beautiful-young-korean-asian-woman.jpg);
+    background-position: 60% 20%;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+.reviews {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 8rem 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.reviews-title h2 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    line-height: 2.8;
+    text-align: center;
+    text-transform: uppercase;
+}
+.customers {
+    border-radius: 8px;
+    display: inline-flex;
+    margin: 0 0 8rem 0;
+    overflow: hidden;
+    width: 70%;
+    height: 35rem;
+}
+.customer-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+.customer-mobile {
+    display: none;
+}
+.review-img {
+    width: 60%;
+}
+.review-img.first {
+    background-image: url(https://static3.mansionglobal.com/production/media/article-images/37c210926034a2f47b06391557b5d016/large_Screen-Shot-2018-02-01-at-4.46.45-PM.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+}
+.review-img.second {
+    background-image: url(https://media.architecturaldigest.com/photos/585abd711f906f61574e60ad/16:9/w_2580,c_limit/gothic-cathedrals-06.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    zoom: 45%;
+}
+.review-img.third {
+    background-image: url(https://i.pinimg.com/originals/86/d1/6b/86d16bbc4c015506901634ca1411f3de.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    zoom: 80%;
+}
+.customer-text p {
+    color: rgba(245, 245, 245, 0.87);
+    font-family: 'Playfair Display', serif;
+    font-size: 1.65rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    width: 70%;
+}
+.customer-text span {
+    color: rgb(116, 116, 116);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+.customers:hover {
+    .opaque {
+        background-color: rgba(59, 59, 90, 0.394);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.4)), url(https://is3-ssl.mzstatic.com/image/thumb/0yDkGOWdcxLHxePAxNY98A/1284x1284bb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    width: 100%;
+    height: auto;
+}
+.footer-background {
+    width: 100%;
+    height: 35rem;
+}
+.footer-main {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 5rem 0 7rem;
+    margin: 6rem 0 0 0;
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+}
+.footer-img-computer {
+    display: inline-flex;
+    justify-content: center;
+    width: 30%;
+}
+.footer-img-mobile {
+    display: none;
+}
+.footer-logo {
+    width: 80%;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 19rem;
+}
+.footer-content ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer li {
+    display: flex;
+}
+footer a {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: none;
+}
+footer a:hover {
+    color: gold;
+    opacity: 1;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+    width: 100%;
+    height: auto;
+}
+.end li {
+    display: inline-flex;
+    margin: 2rem;
+}
+.end a {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.end span {
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem 0 0 0;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .jumbo-content {
+        margin: 0 0 28rem 20rem;
+    }
+    .jumbo-content h1 {
+        font-size: 5.3rem;
+        width: 100%;
+    }
+
+    .snapshot {
+        padding: 1.5rem 0;
+        width: 48%;
+        height: 45rem;
+    }
+    .snap-img {
+        height: 60%;
+    }
+
+    .image {
+        width: 48%;
+        height: 40%;
+    }
+    .team {
+        margin: 0 0 2rem 0;
+    }
+    .team-text {
+        width: 90%;
+    }
+    .team-text p {
+        line-height: normal;
+    }
+    .alex {
+        background-size: 185%;  
+    }
+    .elena {
+        background-size: 170%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    header {
+        padding: 0 1rem;
+    }
+    header li {
+        margin: 0 0 0 1.2rem;
+    }
+    header span {
+        font-size: 1.3rem;
+    }
+    header a {
+        font-size: 1.3rem;
+    }
+
+    .jumbotron1 {
+        text-align: center;
+    }
+    .jumbo-content {
+        color: rgba(245, 245, 245, 0.90);
+        margin: 0 0 22rem 18rem;
+    }
+    .jumbo-content h1 {
+        font-size: 5.5rem;
+        line-height: 1;
+        margin: 0 0 0.5rem 0;
+        width: 70%;
+    }
+    .jumbo-content span {
+        font-size: 1rem;
+        font-family: 'Kanit', sans-serif;
+        font-style: italic;
+        text-align: center;
+        margin: 2rem 0 0 0;
+        padding: 0;
+    }
+
+    #Mission {
+        background-color: rgb(255, 246, 239);
+        padding: 3.5rem 0;
+        width: 100%;
+        height: auto;
+    }
+    #Mission div {
+        width: 85%;
+        height: auto;
+    }
+    #Mission h2 {
+        font-size: 1.8rem;
+        font-weight: bolder;
+        line-height: 2;
+        letter-spacing: 0.6rem;
+    }
+    #Mission p {
+        font-size: 1.4rem;
+        text-align: center;
+        word-spacing: normal;
+    }
+
+    #Information {
+        padding: 1rem;
+    }
+    .title-content {
+        width: 50%;
+        height: 40rem;
+    }
+    .title-content h2 {
+        font-size: 3rem;
+    }
+    .title-content p {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .img-container {
+        border: solid 2px whitesmoke;
+        object-position: center;
+        overflow: hidden;
+        width: 85%;
+        height: 75%;
+    }
+    .info-title:hover {
+        overflow: hidden;
+
+        .title-content.img {
+            transform: scale(1.15);
+            transition: transform 1.2s ease-out;
+        }
+    }
+
+    #Portfolio {
+        padding: 0 3.5rem;
+    }
+    .snapshot {
+        padding: 1.5rem 0;
+        width: 48%;
+        height: 35rem;
+    }
+    .snap-img {
+        height: 60%;
+    }
+    .snap-text a {
+        font-size: 2rem;
+    }
+    .snap-text p {
+        font-size: 1.3rem;
+    }
+
+    .image {
+        width: 58%;
+        height: 35%;
+    }
+    .team-text {
+        padding: 0.5rem 0 0 0;
+        width: 95%;
+    }
+    .team-text h4 {
+        font-size: 1.8rem;
+    }
+    .team-text span {
+        font-size: 1.4rem;
+    }
+    .team-text p {
+        font-size: 1.4rem;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 5rem 0;
+    }
+    .customers {
+        border-radius: 6px;
+        width: 80%;
+        height: 28rem;
+    }
+    .reviews p, .reviews span {
+        font-size: 1.3rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .review-img.second {
+        zoom: 35%;
+    }
+    .review-img.third {
+        zoom: 65%;
+    }
+
+    .footer-background {
+        height: auto;
+    }
+    .footer-main {
+        padding: 0 0 0 3rem;
+        margin: 4rem 0 0 0;
+    }
+    .footer-logo {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbo-content {
+        margin: 0 0 20rem 0;
+    }
+    .jumbo-content h1 {
+        font-size: 5rem;
+        width: 100%;
+    }
+
+    #Mission {
+        padding: 2.5rem 0;
+    }
+    #Mission h2 {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+    #Mission p {
+        line-height: 1.4;
+        word-spacing: 0.2rem;
+    }
+
+    .title-content {
+        height: 30rem;
+    }
+    .title-content p {
+        font-size: 1.8rem;
+    }
+
+    #Portfolio {
+        padding: 0 2rem;
+    }
+    .snapshot {
+        margin: 0 0 2rem 0;
+        padding: 1rem 0 0 0;
+        height: 30rem;
+    }
+    .snap-img {
+        height: 53%;
+    }
+    .snap-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .snap-text {
+        margin: 0.5rem 0 0 0;
+        width: 90%;
+    }
+    .snap-text h3 {
+        margin: 0 0 0.3rem 0;
+    }
+    .snap-text a {
+        font-size: 1.6rem;
+    }
+    .snap-text p {
+        font-size: 1.2rem;
+    }
+
+    .team {
+        width: 45%;
+        height: 38rem;
+    }
+    .image {
+        width: 60%;
+        height: 30%;
+    }
+    .isa {
+        background-position: 90%;
+    }
+    .team-computer {
+        display: none;
+    }
+    span.team-mobile {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .team-text {
+        padding: 0.2rem 0 0 0;
+        width: 95%;
+    }
+    .team-text h4 {
+        font-size: 1.8rem;
+    }
+    .team-text h5 {
+        font-size: 1.1rem;
+        letter-spacing: 0.06rem;
+        margin: 0.4rem 0;
+    }
+    .team-text p {
+        font-size: 1.3rem;
+        letter-spacing: 0.05rem;
+        word-spacing: 0.1rem;
+    }
+
+    .reviews {
+        padding: 0 0 3rem 0;
+    }
+    .customers {
+        margin: 0 0 5rem 0;
+        width: 90%;
+        height: 28rem;
+    }
+    .reviews p, .reviews span {
+        line-height: 1.4;
+    }
+
+    .footer-main {
+        padding: 0;
+        margin: 4rem 0 0 0;
+    }
+    .footer-content ul {
+        justify-content: center;
+    }
+    .footer-main a {
+        font-size: 1.6rem; 
+        line-height: 2;
+    }
+    .end a {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    header {
+        height: 4rem;
+        padding: 0 0.8rem;
+    }
+    header li {
+        margin: 0 0.5rem;
+    }
+    header a {
+        font-size: 1.2rem;
+    }
+    .nav-mobile {
+        display: none;
+    }
+
+    .jumbo-content {
+        margin: 0 0 20rem 3rem;
+    }
+    .jumbo-content h1 {
+        font-size: 4.5rem;
+        width: 90%;
+    }
+
+    #Mission div {
+        width: 90%;
+    }
+    #Mission h2 {
+        font-size: 1.5rem;
+    }
+    #Mission p {
+        font-size: 1.3rem;
+        line-height: 1.4;
+        word-spacing: 0;
+    }
+
+    .info-title {
+        border: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .title-content {
+        width: 90%;
+        height: 30rem;
+    }
+    .title-content.text {
+        height: 22rem;
+    }
+    .mobile {
+        display: flex;
+    }
+    .computer {
+        display: none;
+    }
+    .title-content p {
+        font-size: 2rem;
+    }
+
+    #Portfolio {
+        padding: 0 1.5rem;
+    }
+    .port-title h2 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        padding: 1.5rem 0;
+    }
+    .port {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .snapshot {
+        padding: 1.2rem 0 0 0;
+        width: 100%;
+    }
+    .snap-text a {
+        font-size: 1.8rem;
+    }
+
+    #Team {
+        background-color: black;
+    }
+    .team-title h2 {
+        background-color: black;
+        color: white;
+        font-size: 2.5rem;
+        line-height: 1.2;
+        padding: 1.5rem 5rem;
+        text-align: center;
+    }
+    .team-content {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .team {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 90%;
+        height: 18;
+    }
+    .image {
+        border: none;
+        width: 57%;
+        height: 35%;
+    }
+    .olivia {
+        background-size: 100%;
+    }
+    .alex {
+        background-size: 192%;
+    }
+    .isa {
+        background-position: 80%;
+    }
+    .team-text {
+        color: white;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 700;
+        line-height: 1.5;
+        padding: 0.5rem 0 0 0;
+        width: 85%;
+    }
+    span.team-mobile {
+        color: rgb(202, 202, 202);
+    }
+    .team-text h4 {
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .team-text h5 {
+        color: rgb(175, 45, 45);
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+
+    .review-img {
+        border-radius: 8px;
+        width: 100%;
+    }
+    .opaque {
+        background-color: rgba(59, 59, 90, 0.75);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .customer-text {
+        display: none;
+    }
+    .customer-mobile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        height: auto;
+    }
+    .review-img.third {
+        zoom: 63%;
+    }
+    .review-img p, .review-img span {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+    }
+    .review-img p {
+        font-size: 1.4rem;
+        text-shadow: -1.5px 0 black, 1.5px 0 black, 0 1.5px black, 0 -1.5px black;
+    }
+    .review-img span {
+        margin: 1.3rem 0 0 0;
+        text-shadow: -1.5px 0 black, 1.5px 0 black, 0 1.5px black, 0 -1.5px black;
+    }
+    .review-img.second p, .review-img.second span {
+        zoom: 290%;        
+    }
+    .review-img.third p, .review-img.third span {
+        zoom: 173%;
+    }
+
+    .footer-main {
+        margin: 2rem 0 0 0;
+    }
+    .footer-img-computer {
+        display: none;
+    }
+    .footer-content {
+        width: 45%;
+    }
+    .footer-main a {
+        font-size: 1.5rem;
+    }
+    .footer-img-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer-img-mobile img {
+        width: 40%;
+    }
+    .end {
+        display: inline-flex;
+        padding: 0;
+    }
+    .end li {
+        margin: 3rem 0.8rem 2rem 0.8rem;
+    }
+    .end a {
+        font-size: 1.2rem;
+    }
+    .end span {
+        font-size: 1rem;
+        margin: 0 0 2rem 0;
+    }
+}
