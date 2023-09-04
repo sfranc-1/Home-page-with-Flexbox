@@ -849,9 +849,9 @@ footer a:hover {
         padding: 0 0 0 3rem;
         margin: 4rem 0 0 0;
     }
-    .footer-logo {
+/*     .footer-logo {
         width: 90%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 768px) {
