@@ -402,8 +402,8 @@ header a:hover {
 .image { 
     border-radius: 3px;
     overflow: hidden;
-    width: 36%;
-    height: 38%;
+    width: 35%;
+    height: 40%;
 }
 .team-text {
     font-family: 'Playfair Display', serif;
@@ -431,7 +431,7 @@ header a:hover {
 }
 .sophia {
     background-image: url(https://images.squarespace-cdn.com/content/v1/631ba8eed2196a6795698665/70ee74c1-4bd3-4410-88fd-75bae72b4bfd/2021-08-16-Alicia-Huntsman-44234-JPEG+sRGB+Web+Folder.jpg?format=750w);
-    background-position: 100%;
+    background-position: 110%;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -451,7 +451,7 @@ header a:hover {
 .alex {
     background-image: url(https://media.istockphoto.com/id/1324786380/photo/young-handsome-smiling-man-in-brown-shirt-and-glasses-feeling-confident-isolated-on-gray.jpg?s=612x612&w=0&k=20&c=EWqUQzPW-4jH8rri6eQAeomVfeizC2ead7YCl28KhXU=);
     background-position: top;
-    background-size: 170%;
+    background-size: 173%;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
