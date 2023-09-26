@@ -401,10 +401,9 @@ header a:hover {
     margin: 0 0 5rem 0;
     padding: 0;
     width: 40%;
-    height: 38rem;
+    height: 40rem;
 }
-.image {
-    border: solid 4px black; 
+.image { 
     border-radius: 3px;
     overflow: hidden;
     width: 40%;
@@ -414,7 +413,7 @@ header a:hover {
     font-family: 'Playfair Display', serif;
     padding: 0.5rem 0 0 0;
     width: 80%;
-    /* height: 50%; */
+    height: 50%;
 }
 .team-text h4 {
     font-size: 2rem;
@@ -593,17 +592,6 @@ footer {
     width: 100%;
     height: auto;
 }
-/* .footer-img-computer {
-    display: inline-flex;
-    justify-content: center;
-    width: 30%;
-}
-.footer-img-mobile {
-    display: none;
-}
-.footer-logo {
-    width: 80%;
-} */
 .footer-content {
     display: flex;
     justify-content: center;
@@ -855,9 +843,6 @@ footer a:hover {
         padding: 0 3rem;
         margin: 4rem 0 0 0;
     }
-/*     .footer-logo {
-        width: 90%;
-    } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -1170,24 +1155,12 @@ footer a:hover {
     .footer-main {
         margin: 2rem 0 0 0;
     }
-/*     .footer-img-computer {
-        display: none;
-    } */
     .footer-content {
         width: 45%;
     }
     .footer-main a {
         font-size: 1.5rem;
     }
-/*     .footer-img-mobile {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .footer-img-mobile img {
-        width: 40%;
-    } */
     .end {
         display: inline-flex;
         padding: 0;
