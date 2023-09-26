@@ -403,7 +403,7 @@ header a:hover {
     border-radius: 3px;
     overflow: hidden;
     width: 36%;
-    height: 40%;
+    height: 38%;
 }
 .team-text {
     font-family: 'Playfair Display', serif;
@@ -431,7 +431,7 @@ header a:hover {
 }
 .sophia {
     background-image: url(https://images.squarespace-cdn.com/content/v1/631ba8eed2196a6795698665/70ee74c1-4bd3-4410-88fd-75bae72b4bfd/2021-08-16-Alicia-Huntsman-44234-JPEG+sRGB+Web+Folder.jpg?format=750w);
-    background-position: 110%;
+    background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
